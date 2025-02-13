@@ -1,0 +1,22 @@
+Instructions for reproducing the experimental results and figures in
+
+"Tighter Confidence Bounds for Sequential Kernel Regression".
+
+The .py files are modules containing helper functions.
+The .ipynb notebooks contain the code that runs and records the
+experiments or plots the figures.
+Figures will be saved in the figures directory by default.
+Results (i.e. data plotted in the figures) will be saved in the
+results directory by default.
+
+Bandits.ipynb:
+- reproduces and saves the results shown in figures 2, 5, 6 and 7
+
+Confidence Bounds.ipynb:
+- reproduces and plots the results shown in Figure 1
+
+Plots.ipynb:
+- uses saved experimental results to plot figures 2, 4, 5, 6 and 7
+
+Time Per Step.ipynb:
+- reproduces and saves the results shown in figure 4
